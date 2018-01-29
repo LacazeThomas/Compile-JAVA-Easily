@@ -1,5 +1,5 @@
 # Script-JAVA-Launch
-This Bash script permits to compile Java files easily
+This bash script permits to compile Java files easily and automatically launch
 
 ## Usage
 ```
