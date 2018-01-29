@@ -3,5 +3,5 @@ This bash script permits to compile Java files easily and automatically launch
 
 ## Usage
 ```
-./javaCompile.sh fileToCompile.java
+chmod +x ./javaCompile.sh && ./javaCompile.sh fileToCompile.java 
 ```
