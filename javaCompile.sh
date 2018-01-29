@@ -1,8 +1,8 @@
 #!/bin/bash
 # file = filename + extension
 file=$1
-filename=${FILE%%.*}
-extension=${FILE##*.}
+filename="${file%.*}"
+extension="${file##*.}"
 if [ $# -eq 1 ]; then # Test if the number of parameters is to 1
     if [ -f $file ]; then # Test if the file is really a file
         if [[ "$extension" == "java" ]]; then # And test if the extension is "java" and not "class"
