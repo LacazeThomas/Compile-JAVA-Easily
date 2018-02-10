@@ -10,10 +10,12 @@ if [ $# -eq 1 -o  $# -eq 2 ]; then # Test if the number of parameters is to 1
                 rm *.class
                 javac $file
                 java $filename
+                rm *.class
             else 
                 rm *.class
                 javac $file
                 java $filename $2
+                rm *.class
             fi
         else
             echo "Error don't forget to use the .java not .class"
