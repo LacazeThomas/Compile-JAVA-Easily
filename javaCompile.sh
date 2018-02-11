@@ -7,10 +7,10 @@ if [ $# -eq 1 -o  $# -eq 2 ]; then # Test if the number of parameters is to 1
     if [ -f $file ]; then # Test if the file is really a file
         if [[ "$extension" == "java" ]]; then # And test if the extension is "java" and not "class"
             if [ $# -eq 1 ];then
-                rm *.class 2> null
+                rm *.class 2> /dev/null
                 javac $file
                 java $filename
-                rm *.class 2> null
+                rm *.class 2> /dev/null
             else 
                 rm *.class
                 javac $file
