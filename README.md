@@ -3,7 +3,7 @@ This bash script permits to compile Java files easily and automatically launch
 
 ## Usage
 ```
-wget https://javacompile.thomaslacaze.fr/javaCompile.sh && chmod +x ./javaCompile.sh && javaCompile.sh fileToCompile.java 
+wget https://javacompile.thomaslacaze.fr/javaCompile.sh && chmod +x javaCompile.sh && javaCompile.sh fileToCompile.java 
 ```
 OR
 ```
