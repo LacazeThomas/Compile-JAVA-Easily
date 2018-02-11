@@ -2,8 +2,9 @@
 This bash script permits to compile Java files easily and automatically launch
 
 ## Usage
+Remplace fileName with what you what !
 ```
-wget https://javacompile.thomaslacaze.fr/javaCompile.sh && chmod +x javaCompile.sh && javaCompile.sh fileToCompile.java 
+wget https://javacompile.thomaslacaze.fr/fileName.sh && chmod +x fileName.sh && fileName.sh fileToCompile.java 
 ```
 OR
 ```
